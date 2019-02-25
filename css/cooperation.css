@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+.dealer { width: 1015px; margin: 0 auto; }
+.dealer .process { margin-top: 80px; position: relative; padding-bottom: 78px; border-bottom: 1px solid #efefef; }
+.dealer .process h2 { text-align: center; font-size: 26px; color: #595757; font-weight: bold; letter-spacing: 4px; }
+.dealer .process .entrance { display: inline-block; width: 138px; height: 30px; line-height: 30px; border: 1px solid #595757; border-radius: 2px; text-align: center; color: #373737; font-size: 16px; position: absolute; top: 5px; right: 0px; z-index: 2; }
+.dealer .process .entrance:hover { background: #ff0000; color: #fff; border: 1px solid #ff0000; }
+.dealer .process .entrance.hover { background: #ff0000; color: #fff; border: 1px solid #ff0000; }
+.dealer .process ul li { width: 183px; height: 163px; float: left; background: url(../images/arrow.png) no-repeat center; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; text-align: center; position: relative; margin-right: 25px; }
+.dealer .process ul li.last { margin-right: 0px; }
+.dealer .process ul li .content { margin-top: 7px; margin-left: 7px; background: #a1a1a1; border-radius: 50%; width: 150px; height: 150px; font-size: 21px; color: #fff; line-height: 150px; }
+.dealer .process .pro_list { margin-top: 78px; }
+.applyJoin { margin-top: 80px; text-align: center; font-size: 16px; }
+.dealer .process .applyBtn { display: inline-block; width: 220px; height: 40px; line-height: 40px; text-align: center; color: #fff; background: #a1a1a1; font-size: 18px; border-radius: 3px; }
+.dealer .process .applyBtn:hover { background: #ff0000; color: #fff; }
+.dealer .process .applyBtn.hover { background: #ff0000; color: #fff; }
+.dealer .support { }
+.dealer .support h2 { text-align: center; font-size: 26px; color: #595757; font-weight: bold; letter-spacing: 4px; padding: 78px 0px; }
+.dealer .support .suList li { margin-bottom: 100px; }
+.dealer .support .suList li .image { width: 320px; height: 214px; overflow: hidden; margin-right: 40px; }
+.dealer .support .suList li .image img { width: 100%; height: 100%; transition: 0.6s ease; -moz-transition: 0.6s ease; -ms-transition: 0.6s ease; -o-transition: 0.6s ease; -webkit-transition: 0.6s ease; }
+.dealer .support .suList li .image img:hover { -moz-transform: scale(1.2, 1.2); -ms-transform: scale(1.2, 1.2); -o-transform: scale(1.2, 1.2); -webkit-transform: scale(1.2, 1.2); transform: scale(1.2, 1.2); }
+.dealer .support .suList li .content { width: 610px; }
+.dealer .support .suList li .content h4 { font-size: 24px; color: #070707; margin-bottom: 37px; margin-top: 22px; }
+.dealer .support .suList li .content p { line-height: 24px; color: #070707; height: 72px; overflow: hidden; }
+
+
+.dealer_data .dataBox table td .addperson .plus { display: inline-block; width: 35px; height: 35px; background-color: #d2d2d2; background-image: url(../images/plus.png); background-repeat: no-repeat; background-position: center; position: absolute; right: 0; top: 0px; z-index: 1; cursor: pointer; }
+/*.dealer_data .dataBox table td .addperson.active { border: 1px solid #ff0000; color: #ff0000; }
+*/.dealer_data .dataBox table td .addperson .plus.active { background-color: #ff0000; }
+.dealer_data .dataBox table td .subBtn { width: 180px; height: 35px; line-height: 35px; text-align: center; background: #000000; color: #fff; font-weight: bold; margin-top: 45px; }
+.dealer_data .dataBox table td .subBtn:hover { background: #302b2b; }
+.dealer_data .dataBox table td .changeBtn { width: 180px; height: 35px; line-height: 35px; text-align: center; background: #a0a0a0; color: #fff; font-weight: bold; margin-left: 20px; margin-top: 45px; }
+.dealer_data .dataBox table td .changeBtn:hover { background: #8d8787;}
+.Contacts { position: fixed; top: 50%; left: 50%; z-index: 99; background: #fff; width: 600px; padding-bottom: 30px; margin-left: -300px; border: 1px solid #000; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -o-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); display: none; }
+.Contacts h2 { height: 40px; line-height: 40px; background: #898989; font-size: 14px; color: #fff; }
+.Contacts h2 span { padding-left: 20px; }
+.Contacts h2 .closeBtn { display: inline-block; float: right; width: 40px; height: 40px; background-color: #000; background-image: url(../images/close.png); background-repeat: no-repeat; background-position: center; cursor: pointer; }
+.Contacts table { width: 100%; margin-top: 40px; }
+.Contacts table .eventd { text-align: right; padding-right: 9px; padding-left: 10px; }
+.Contacts table td { padding-bottom: 14px; color: #676767; }
+.Contacts table td .text { border: 1px solid #a3a3a3; width: 460px; height: 35px; line-height: 35px; color: #898989; padding: 0px 14px; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.Contacts table td .text:focus { border: 1px solid #ff0000; }
+.Contacts table td .subBtn { width: 180px; height: 35px; line-height: 35px; text-align: center; background: #000000; color: #fff; font-weight: bold; }
+.Contacts table td .subBtn:hover { background: #302b2b; }
+/*建议*/
+.dealer_data .advice { margin-top: 58px; }
+.dealer_data .advice .ad_left { width: 432px; }
+.dealer_data .advice .ad_left .tip { font-size: 14px; color: #000; display: block; padding-bottom: 4px; }
+.dealer_data .advice .ad_left textarea { border: 1px solid #eeeeee; width: 100%; height: 230px; resize: none; font-family: "Microsoft YaHei"; padding: 10px; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; outline: none; }
+.dealer_data .advice .ad_left textarea:focus { border: 1px solid #ff0000; }
+.dealer_data .advice .ad_right .tip { font-size: 14px; color: #000; padding-bottom: 4px; display: block; }
+.dealer_data .advice .ad_right { width: 410px; }
+.dealer_data .advice .ad_right .list { margin-bottom: 32px; }
+.dealer_data .advice .ad_right input { width: 100%; border: 1px solid #eeeeee; height: 40px; line-height: 40px; color: #000; padding: 0px 10px; -moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.dealer_data .advice .ad_right input:focus { border: 1px solid #ff0000; }
+.dealer_data .advice .ad_right .subBtn { float: right; width: 160px; height: 35px; background: #898989; line-height: 25px; color: #fff; }
+.dealer_data .advice .ad_right .subBtn:hover { background: #716f6f; }
+/*营销*/
+.dealer_data_market { width: 930px; margin: 0 auto }
+.dealer_data .marketing { }
+.dealer_data .marketing .tit { text-align: center; margin-top: 15px; padding-bottom: 28px; }
+.dealer_data .marketing .tit a { font-size: 14px; color: #898989; padding: 0px 18px; background: url(../images/line.png) no-repeat right center; }
+.dealer_data .marketing .tit a:last-child { background: none; }
+.dealer_data .marketing .tit a.on { color: #e4071e; }
+.dealer_data .marketing .tit a:hover { color: #e4071e; }
+.dealer_data .marketing .content { height: 55px; line-height: 55px; overflow: hidden; margin-bottom: 1px; -o-transition: .2s; -ms-transition: .2s; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s;  }
+/*.dealer_data .marketing .content .con_left { width: 659px; background: #f2f2f2; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; -o-transition: .2s; -ms-transition: .2s; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s;  }*/
+
+.dealer_data .marketing .content .con_left { width: 500px; background: #f2f2f2; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; -o-transition: .2s; -ms-transition: .2s; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s;  }
+
+
+.dealer_data .marketing .content .con_left strong { font-size: 22px; color: #000; padding-left: 30px;  -o-transition: .2s; -ms-transition: .2s; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s; }
+.dealer_data .marketing .content .con_left span { font-size: 16px; color: #707070; padding-left: 30px;  -o-transition: .2s; -ms-transition: .2s; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s; }
+/*.dealer_data .marketing .content .con_right { width: 270px; background: #f2f2f2; text-align: center;  -o-transition: .2s; -ms-transition: .2s; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s; }*/
+
+.dealer_data .marketing .content .con_right { width: 214px; background: #f2f2f2; text-align: center;  -o-transition: .2s; -ms-transition: .2s; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s;margin-left:1px; }
+
+.dealer_data .marketing .content .con_right strong { font-size: 22px; color: #000; -o-transition: .2s; -ms-transition: .2s; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s;  }
+.dealer_data .marketing .content .con_right span { font-size: 16px; color: #707070; -o-transition: .2s; -ms-transition: .2s; -moz-transition: .2s; -webkit-transition: .2s; transition: .2s;  }
+.dealer_data .marketing .list:hover .con_left{ color:#fff; background:#898989;}
+.dealer_data .marketing .list:hover .con_right{  background:#898989;}
+.dealer_data .marketing .list:hover .con_left span{ color:#fff;}
+.dealer_data .marketing .list:hover .con_right span{ color:#fff;}
+
+.page3{ text-align:center; margin-top:40px; height:35px; line-height:35px;}
+.page3 a{ display:inline-block; width:40px; height:35px; line-height:35px; text-align:center; margin:0px 1px; font-size:12px; color:#21221d; background-color:#f7f7f7;}
+.page3 a:hover{ color:#fff;background-color:#898989}
+.page3 a.on{ color:#fff;background-color:#898989}
+
+.page3 .first{ background-image:url(../images/arrow_left.png); background-repeat:no-repeat; background-position:center; margin-right:9px; text-indent:-9999em;}
+.page3 .last{ background-image:url(../images/arrow_right.png); background-repeat:no-repeat; background-position:center; margin-left:9px; text-indent:-9999em;}
+.page3 .first:hover{ background-image:url(../images/arrow_left_on.png); background-color:#898989}
+.page3 .last:hover{ background-image:url(../images/arrow_right_on.png);background-color:#898989}
+
+/*设备*/
+.dealer_data .dataBox table td .inputBox{ width:300px;}
+.dealer_data .dataBox table td textarea{ outline:none;width:600px; height:82px; resize:none;border: 1px solid #eeeeee; padding:10px;-moz-box-sizing: border-box; -ms-box-sizing: border-box; -o-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.dealer_data .dataBox table td textarea:focus{border: 1px solid #ff0000; }
+.dealer_data .dataBox table td label{ margin-right:20px; cursor:pointer; min-width:98px; display:inline-block;}
+.dealer_data .dataBox table td label input{ width:14px; height:14px; position:relative; top:-1px; margin-right:9px;}
+.dealer_data .dataBox table td label.one{ width:93px;}
+.dealer_data .dataBox table td label.second{ width:112px;}
+.dealer_data .dataBox table .tdState{ margin-bottom:30px; }
+.dealer_data .dataBox table td .short{ width:110px; margin-right:10px;}
+.dealer_data .dataBox table td .short:last-child{ margin-right:0px;}
+.dealer_data .dataBox table td .third_short{ margin-right:0px;}
+.dealer_data .dataBox table td .cusperson{ font-size:12px; display: inline-block;
+    border: 1px solid #d2d2d2;
+    height: 35px;
+    line-height: 35px;
+    color: #898989;
+    padding: 0px 14px;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative; width: 110px; padding-left:8px; cursor:pointer; }
+
+
+.dealer_data .dataBox table td .cusperson.active { border: 1px solid #ff0000; color: #ff0000; }
+.dealer_data .dataBox table td .cusperson.active .plus { background-color: #ff0000; }
+
+
+#modpw table td .text{ width:300px; padding:7px 14px; height:auto; line-height:normal; font-size:14px;}

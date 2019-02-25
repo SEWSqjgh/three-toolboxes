@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1015px){
+.dealer{ width:94%; margin:0 auto;}	 
+.dealer .process .pro_list{ width:625px; margin:0 auto; margin-top:78px;}
+.dealer .process ul li{ margin-bottom:3%;}	
+.dealer .support .suList li .image{ float:none; margin:0 auto;}	
+.dealer .support .suList li .content{ width:100%;}	
+	
+.dealer_data .advice .ad_left{ width:100%;}	
+.dealer_data .advice .ad_right{ width:100%;}	
+	
+.dealer_data{ width:94%; margin:0 auto;}	
+	
+.dealer_data .dealer_title{ padding-bottom:10px; padding-top:10px;}	
+.dealer_data .dealer_title a{ font-size:16px; margin-top:10px;}
+.dealer_data .advice .ad_left textarea{ height:160px;}
+.dealer_data .advice{ margin-top:20px;}
+
+.dealer_data .dataBox table{ width:100%; margin-left:0px;}
+.dealer_data .dataBox table td .text{ width:90%}
+.dealer_data .dataBox table td select{ width:90%; }
+.dealer_data .dataBox table .eventd{ padding-right:3%; width:27%;}
+.dealer_data .dataBox table td .addperson{ width:90%;}
+.dealer_data .dataBox table td .subBtn{ width:30%;margin-top:20px;}
+.dealer_data .dataBox table td .changeBtn{ width:30%; margin-top:20px;}
+.dealer_data .dataBox table td .red{ padding-left:0px;}
+.dealer_data .dataBox h2{ padding:30px 0px;}
+
+.Contacts{ width:96%; left:2%; margin-left:0px;}
+.Contacts table{ width:90%;}
+.Contacts table td .text{ width:100%;}
+.Contacts table .eventd{ padding:0px;}
+
+.dealer_data_market{width:96%; margin:0 auto;}
+.dealer_data .marketing .content{ margin-bottom:1%;}
+.dealer_data .marketing .content .con_left{ width:60%;/*width:70%;*/ margin-right:1%;}
+.dealer_data .marketing .content .con_right{ /*width:29%;*/width:19%;}
+.dealer_data .marketing .content .con_left span{ padding-left:10px;}
+.dealer_data .marketing .content .con_left strong{ padding-left:10px; font-size:20px;}
+.dealer_data .marketing .content .con_right strong{ font-size:20px;}
+.dealer_data .dataBox table td .short{ width:110px; margin:5px 0px; margin-right:3%;}	
+.dealer_data .dataBox table td textarea{ width:90%;}
+.dealer_data .dataBox table td label.one{ width:auto;}
+.dealer_data .dataBox table td label.second{ width:auto;}
+.dealer_data .dataBox table td label{ margin-right:3%; margin:5px 0px;}
+
+}
+@media screen and (max-width:640px){
+.dealer .process h2{ font-size:20px;}
+.dealer .support h2{ font-size:20px;}	 
+.dealer .process{ margin-top:20px; padding-bottom:20px;}	
+.dealer .process .entrance{ position:relative; float:right; top:20px;}	
+.dealer .process .pro_list{ width:392px;}
+.dealer .process ul li.last{ margin-right:25px;}	
+.dealer .process ul li:nth-child(2n){ margin-right:0px;}	
+.applyJoin{ margin-top:20px;}	
+.dealer .support h2{ padding:30px 0px;}
+.dealer .support .suList li .image{ width:100%; height:auto;}	
+.dealer .support .suList li{ margin-bottom:3%;}	
+.dealer .support .suList li .content h4{ margin-bottom:8px; margin-top:12px; font-size:20px;}	
+.dealer_data .marketing .tit a{ padding:0px; width:30%; display:inline-block; margin:5px 0px;}
+#modpw table td .text{ width:100%;}	
+}
+@media screen and (max-width:414px){
+.dealer .process .pro_list{ width:266px;}
+.dealer .process ul li{ width:120px; height:110px; background-size:contain;}
+.dealer .process ul li .content{ width:100px; height:100px; line-height:100px; font-size:16px; margin-top:6px; margin-left:4px;}
+	
+.dealer_data .marketing .content {
+        height: 38px;
+        line-height: 38px;
+    }
+	.dealer_data .marketing .content .con_left {
+        width: 54%;
+    }
+    .dealer_data .marketing .content .con_left span {
+        font-size: 16px;
+    }
+    .dealer_data .marketing .content .con_right {
+        width: 22%;
+    }
+    .dealer_data .marketing .content .con_right span {
+        font-size: 14px;
+    }
+    .dealer_data .marketing .content .con_right span {
+        font-size: 14px;
+    }
+	
+}
+@media screen and (max-width:360px){
+    .dealer_data .marketing .content {
+        height: 38px;
+        line-height: 38px;
+    }
+	.dealer_data .marketing .content .con_left {
+        width: 54%;
+    }
+    .dealer_data .marketing .content .con_left span {
+        font-size: 14px;
+    }
+    .dealer_data .marketing .content .con_right {
+        width: 22%;
+    }
+    .dealer_data .marketing .content .con_right span {
+        font-size: 12px;
+    }
+    .dealer_data .marketing .content .con_right span {
+        font-size: 12px;
+    }
+
+	
+}
